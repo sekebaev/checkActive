@@ -1,0 +1,420 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'ProximaNovaRegular', sans-serif;
+}
+
+@font-face {
+  font-family: 'ProximaNovaBlack';
+  src: url('../font/proximanova_black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url('../font/proximanova_regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.wrapper{
+  position: relative;
+  background: #F3F3F3;
+}
+
+.container{
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: #F3F3F3;
+}
+
+.wrapListBlock{
+
+  list-style-type:none ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapListBlock li{
+  margin: 0 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #978D8D;
+}
+
+.headerWrapper{
+  display: flex;
+  height: 130px;
+  align-items: center;  
+  justify-content: space-between;
+}
+
+.headerWrapper1024{
+  display: none;
+  height: 130px;
+  align-items: center;  
+  justify-content: space-between;
+}
+
+.mainMenuWrap{
+  position: relative;
+  background-color: #111010;
+  height: 465px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mainMenu{
+  position: relative;
+  max-width: 1251px;
+  display: flex;
+
+}
+.mainMenuTextWrap {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mainMenuTextWrap h1{
+  font-size: 60px;
+  color: #FFFFFF;
+}
+.mainMenuTextWrap p{
+  margin-top: 24px;
+  width: 70%;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.mainMenuTextWrap p span{
+  color: #803DB1;
+}
+.mainMenuImgWrap {
+  position: absolute;
+  z-index: 2;
+  bottom: -15%;
+  right: 8%;
+  width: 50%;
+}
+
+.mainMenuImgWrap img{
+  width: 120%;
+}
+
+
+
+.resFon{
+  width: 60%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  height: 519px;
+}
+
+
+.resFonLeftProcent {
+  width: 12%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+}
+.resFonRigthProcent {
+  width: 12%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.resFonLeftProcent img{
+  width: 100%;
+}
+
+.resFonRigthProcent img{
+  width: 100%;
+}
+
+.linesPosition{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+}
+
+.linesPosition img{
+
+  width: 100%;
+}
+
+main{
+  max-width: 1251px;
+  margin: 0 auto;
+}
+
+
+
+.blockPhone {
+  margin: 100px 0;
+  display: flex;
+  align-items: start;
+}
+.blockPhoneImgBlock {
+}
+.blockPhoneTextBlock{
+  width: 40%;
+  margin-top: 100px;
+}
+.blockPhoneTextBlock p{
+  margin-bottom:24px ;
+  color: #111010;
+  font-size: 20px;
+}
+.textP{
+  display: flex;
+}
+.textP h1{
+  font-weight: 700;
+  margin-right: 10px;
+}
+.buttonAndPhotoBlock {
+  display: flex;
+  align-items: start;
+}
+.buttonAndPhotoBlockButton{
+  border-radius: 9px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px ;
+  width: 40%;
+  color: #FFFFFF;
+  background-color: #111010;
+  margin-right: 10px;
+}
+.buttonAndPhotoBlock img{
+  width: 50%;
+}
+.blackSpan{
+  font-weight: 600;
+}
+.fiolSpan{
+  color: #803DB1;
+}
+
+.displayImgYan{
+  display: none;
+}
+
+
+
+.zakazPort {
+  display: flex;
+
+}
+.zkzPtrImg {
+  width: 50%;
+}
+.zkzPtrImg img{
+  width: 100%;
+}
+
+.textBlockWrap {
+  width: 40%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.textBlockWrap h1{
+  font-size: 30px;
+}
+.textBlockWrap p{
+  color: #AEAEAE;
+  margin: 10px 0;
+
+}
+.blockNumberZKZ {
+  display: flex;
+}
+
+.blockNumberZKZ img{
+  margin-right: 10px;
+}
+
+.textBlockWrap button{
+  background-color: #111010;
+  color: #FFFFFF;
+  font-weight: 800;
+  padding: 16px;
+  width: 180px;
+  border-radius: 9px;
+}
+
+
+
+
+footer{  
+  margin-top: 120px;
+  background-color: #313131;
+}
+.footer_wrap {
+  display: flex;
+  flex-direction: column;
+}
+.mainfooterCont {
+  display: flex;
+  padding: 60px 0 ;
+}
+
+.logosfooterBlock{
+  margin-right: 80px;
+}
+.logosfooterBlock img{
+  margin-bottom: 15px;
+}
+.logosfooterBlock p{
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  font-weight: 800;
+}
+.iconsFooterBlock {
+}
+
+
+.textsfooterblock{
+  margin-top: 20px;
+  color: #FFFFFF;
+}
+.textsfooterblock h2{
+  font-size: 14px;
+}
+.wrapLowFooterTextAndImg {
+  margin-top: 33px;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+}
+.lowBlockText p{
+  margin-bottom: 10px;
+}
+.wesPartn p {
+    margin-bottom: 10px;
+}
+.imgRyadFooter img{
+  margin: 0 5px;
+}
+.polzFAQ {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.polzFAQ p{
+  font-size: 12px;
+  margin: 0 10px;
+  color: #FFFFFF;
+}
+.polzFAQ p:first-child{
+  padding-right: 20px;
+  border-right: 1px solid #FFFFFF;
+}
+
+
+.zakazFooter {
+  background: #803DB1;
+
+}
+
+.zakazFooter h1{
+  text-align: center;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1024px) {
+  .headerWrapper1024{
+    padding: 0 20px;
+    display: flex;
+  }
+  .headerWrapper{
+    display: none;
+  }
+  .linesPosition{
+    display: none;
+  }
+  .mainMenuImgWrap img{
+    width: 100%;
+  }
+  .mainMenuImgWrap {
+    right: 0;
+    bottom: -6%;
+    rotate: 4deg;
+  }
+  .resFon {
+    height: 100%;
+  }
+  .resFonRigthProcent {
+    top: 300px;
+    width: 15%;
+  }
+  .resFonLeftProcent {
+    top: 300px;
+    width: 15%;
+  }
+  .mainMenuWrap {
+    height: 400px;
+  }
+  .mainMenuTextWrap {
+    margin-left: 20px;
+  }
+  .mainMenuTextWrap p {
+    font-size: 16px;
+  }
+  .mainMenuTextWrap h1 {
+    font-size: 38px;
+  }
+  .buttonAndPhotoBlock img {
+    display: none;
+  }
+  .buttonAndPhotoBlockButton{
+    width: 100%;
+  }
+  .displayImgYan{
+    display: block;
+    margin-bottom:100px ;
+  }
+  .blockPhone{
+    margin-bottom: 0;
+  }
+  .zakazPort{
+    padding: 0 20px;
+    flex-direction: column-reverse;
+  }
+  .zkzPtrImg{
+    width: 100%;
+  }
+  .textBlockWrap h1{
+    text-align: center;
+  }
+
+}
